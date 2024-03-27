@@ -79,11 +79,13 @@
 	(if
 		(not (nth 0 (atoms-family 1 (list "CompFile"))))
 		(progn
-			(load (strcat (Qnth02 comPH "FUNCIONES" "RUTA" 0.01) "LispFUN_" "CompFile.lsp"))
+			(load (strcat (Qnth02 comPH "FUNCIONES" "RUTA" 0.01) "LispFUN_CompFile.lsp"))
 		)
 	)
-	(CompFile 1)
+	(CompFile)
 ) ; C:Compila..
+
+
 
 
 
